@@ -1,0 +1,2 @@
+Java is platform Independent language
+jo bhi ho java h to majedar
