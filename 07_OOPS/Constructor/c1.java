@@ -1,6 +1,6 @@
 class A{
    public A(){
-    System.out.println("Default version...");
+    System.out.println("Default version..."); //error: no suitable constructor found for A(no arguments) -> if we remove the default constructor then error
    } 
    public A(int x){
      System.out.println("Int-version...");

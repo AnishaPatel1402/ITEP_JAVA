@@ -12,7 +12,7 @@ class TestVarArg{
 class TestMain{
     public static void main(String args[]){
         TestVarArg obj = new TestVarArg();
-        int result = obj.add(20,10,5);
+        int result = obj.add(20,10,5,90);
         System.out.println("Addition : "+result);
     }
 }

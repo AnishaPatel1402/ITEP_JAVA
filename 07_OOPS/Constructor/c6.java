@@ -30,3 +30,19 @@ class TestMain{
         obj.setA(50);
     }
 }
+
+// class Parent {
+//     Parent(int x) {
+//         System.out.println("Parent constructor: " + x);
+//     }
+// has no default constructor but in child compile implicitly add super() so here will be error
+// error: constructor Parent in class Parent cannot be applied to given types;
+//   required: int
+//   found: no arguments
+// }
+
+// class Child extends Parent {
+//     Child() {
+//         System.out.println("Child constructor");
+//     }
+// }
